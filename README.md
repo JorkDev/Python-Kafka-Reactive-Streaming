@@ -46,15 +46,17 @@ To start using this project:
 
 We welcome contributions from the community to improve this project! If you're interested in contributing, here's how you can get started:
 
-- **Fork the Repository**: Start by forking this repository to your own GitHub account.
-- **Clone the Repository**: Clone the forked repository to your local machine using the `git clone` command.
-- **Create a Branch**: Create a new branch for your contributions using `git checkout -b feature/new-feature` (replace `new-feature` with a descriptive branch name).
-- **Make Changes**: Make your desired changes to the codebase.
-- **Test Your Changes**: Ensure that your changes don't break existing functionality and add any necessary tests.
-- **Commit Your Changes**: Commit your changes with descriptive commit messages.
-- **Push Changes**: Push your changes to your forked repository with `git push origin feature/new-feature`.
-- **Create a Pull Request**: Submit a pull request from your branch to the main repository. Be sure to provide a detailed description of your changes and any related issues.
-- **Review and Collaborate**: Collaborate with maintainers and reviewers to address any feedback and ensure your changes meet the project's standards.
-- **Celebrate**: Your contribution is valuable! Thank you for your effort in improving this project.
+1. **Fork the Repository**: Start by forking this repository to your own GitHub account.
+2. **Clone the Repository**: Clone the forked repository to your local machine using the `git clone` command.
+3. **Create a Branch**: Create a new branch for your contributions using `git checkout -b feature/new-feature` (replace `new-feature` with a descriptive branch name).
+4. **Make Changes**: Make your desired changes to the codebase.
+5. **Test Your Changes**: Ensure that your changes don't break existing functionality and add any necessary tests.
+6. **Commit Your Changes**: Commit your changes with descriptive commit messages.
+7. **Push Changes**: Push your changes to your forked repository with `git push origin feature/new-feature`.
+8. **Create a Pull Request**: Submit a pull request from your branch to the main repository. Be sure to provide a detailed description of your changes and any related issues.
+9. **Review and Collaborate**: Collaborate with maintainers and reviewers to address any feedback and ensure your changes meet the project's standards.
+10. **Celebrate**: Your contribution is valuable! Thank you for your effort in improving this project.
 
 If you have any questions or need assistance with the contribution process, feel free to reach out to us or refer to the [GitHub documentation](https://docs.github.com/en/get-started) for more guidance.
+
+This project is maintained by me, for any questions or inquiries, please contact [jorkaefdev@gmail.com](mailto:jorkaefdev@gmail.com).
