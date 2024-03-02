@@ -42,4 +42,19 @@ To start using this project:
 
 6. **Explore and Customize**: Feel free to explore the codebase and customize it to suit your needs. You can modify data sources, processing logic, and notification methods as necessary.
 
-7. **Contribute**: If you encounter any issues or wish to contribute to the project, please submit a pull request or open an issue on GitHub.
+## Contributions
+
+We welcome contributions from the community to improve this project! If you're interested in contributing, here's how you can get started:
+
+- **Fork the Repository**: Start by forking this repository to your own GitHub account.
+- **Clone the Repository**: Clone the forked repository to your local machine using the `git clone` command.
+- **Create a Branch**: Create a new branch for your contributions using `git checkout -b feature/new-feature` (replace `new-feature` with a descriptive branch name).
+- **Make Changes**: Make your desired changes to the codebase.
+- **Test Your Changes**: Ensure that your changes don't break existing functionality and add any necessary tests.
+- **Commit Your Changes**: Commit your changes with descriptive commit messages.
+- **Push Changes**: Push your changes to your forked repository with `git push origin feature/new-feature`.
+- **Create a Pull Request**: Submit a pull request from your branch to the main repository. Be sure to provide a detailed description of your changes and any related issues.
+- **Review and Collaborate**: Collaborate with maintainers and reviewers to address any feedback and ensure your changes meet the project's standards.
+- **Celebrate**: Your contribution is valuable! Thank you for your effort in improving this project.
+
+If you have any questions or need assistance with the contribution process, feel free to reach out to us or refer to the [GitHub documentation](https://docs.github.com/en/get-started) for more guidance.
