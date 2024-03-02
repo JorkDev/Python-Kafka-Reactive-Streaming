@@ -1,6 +1,7 @@
 # Reactive Data Streaming App with Python and Apache Kafka
 
-Have you ever wondered how to get live notifications from a service that doesn’t support live notifications? Can you watch an online store for price drops? Or track comments on someone else’s YouTube video? In this episode of Coding in Motion, we’ll show you how to build a solution that brings static data to life by turning it into a reactive system.
+Ever wanted to receive real-time updates from services that don't offer live notifications? Wondered if you could monitor an online store for price drops or keep track of comments on YouTube videos? 
+This project demonstrates how to transform static data sources into dynamic, reactive systems.
 
 ## Overview
 
@@ -36,8 +37,3 @@ To get started with this project, follow these steps:
 5. **Explore and Customize**: Feel free to explore the codebase and customize it to fit your needs. You can modify the data sources, processing logic, and notification methods according to your requirements.
 
 6. **Contribute**: If you find any issues or want to contribute to the project, please submit a pull request or open an issue on GitHub.
-
-## Credits
-
-This project is brought to you by Kris Jenkins as a part of the Coding in Motion series.
-
