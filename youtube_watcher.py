@@ -49,6 +49,15 @@ def fetch_videos(google_api_key, youtube_playlist_id, page_token=None):
     if next_page_token is not None:
         yield from fetch_videos(google_api_key, youtube_playlist_id, next_page_token)
 
+def summarize_video(video):
+    return {
+        "video_id": video["id"],
+        "title": video["snippet"]["title"],
+        "views": video["statistics"].get("viewCount",0),
+        "likes": video["statistics"].get("likeCount",0),
+        "comments": video["statistics"].get("commentCount",0),
+    }
+
 def main():
     logging.info("START")
     google_api_key = config["google_api_key"]
