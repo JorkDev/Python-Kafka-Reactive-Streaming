@@ -58,8 +58,14 @@ def summarize_video(video):
         "comments": video["statistics"].get("commentCount",0),
     }
 
+def ondelivery(err, record):
+    pass
+
 def main():
     logging.info("START")
+    kafka_config = config["kafka"]
+    producer = SerializingProducer(kafka_config)
+
     google_api_key = config["google_api_key"]
     youtube_playlist_id = config["youtube_playlist_id"]
 
@@ -67,6 +73,13 @@ def main():
         video_id = video_item["contentDetails"]["videoId"]
         for video in fetch_videos(google_api_key, video_id):
             logging.info("GOT %s", pformat(summarize_video(video)))
+
+        producer.produce(
+            topic="youtube_videos",
+            key= video_id,
+            value = value,
+            on_delivery = ondelivery
+        )
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
